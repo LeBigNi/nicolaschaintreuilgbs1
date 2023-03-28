@@ -1,3 +1,31 @@
 .green{
     color: aqua;
 }
+.row{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 60px;
+    
+    
+    
+}
+
+body{
+    background-image: url('bgsite.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.card-title{
+    font-size: 200%;
+}
+.card-text{
+    justify-content: flex-end;
+}
+
+d-block{
+    width: 220px;
+    height: 292px;
+}
