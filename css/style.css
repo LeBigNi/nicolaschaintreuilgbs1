@@ -1,21 +1,22 @@
 html, body{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+}
+.navbar{
+    position: fixed;
 }
 .row{
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
-    padding: 10px;
-    
-    
-    
+    padding: 10px;   
 }
 
-body{
+.page1{
     background-image: url('../img/bgsite.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     background-attachment: fixed;
 }
 
@@ -26,24 +27,17 @@ body{
     justify-content: flex-end;
 }
 
-d-block{
+.d-block{
     width: 220px;
     height: 292px;
 }
 
-.card col-3{
-    height: 20vh;
-}
+
 
 .separation{
     background-color: rgb(20, 23, 26);
     margin-bottom: 0%;
     
-}
-.sticky{
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
 }
 .panels{
     height: 100vh;
