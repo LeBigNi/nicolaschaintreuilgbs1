@@ -1,18 +1,19 @@
-.green{
-    color: aqua;
+html, body{
+    margin: 0;
+    padding: 0;
 }
 .row{
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
-    padding: 60px;
+    padding: 10px;
     
     
     
 }
 
 body{
-    background-image: url('bgsite.jfif');
+    background-image: url('../img/bgsite.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -28,4 +29,59 @@ body{
 d-block{
     width: 220px;
     height: 292px;
+}
+
+.card col-3{
+    height: 20vh;
+}
+
+.separation{
+    background-color: rgb(20, 23, 26);
+    margin-bottom: 0%;
+    
+}
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.panels{
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+}
+
+.panel{
+
+    height: 100%;
+    flex: 3;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition : flex .7s ease-in-out;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.panel:hover{
+    flex:5;
+}
+.panel:hover>.titreJeu{
+    opacity: 100%;
+}
+
+.tlous{
+    background-image: url("../img/tlous.jpg");
+
+}
+.re4{
+    background-image: url("../img/re4.jpg");
+}
+
+.disland{
+    background-image: url("../img/di.jpg");
 }
