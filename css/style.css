@@ -1,52 +1,56 @@
 html, body{
+    height: 100%;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
 }
 .navbar{
     position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1000;
+}
+.collapse{
+    justify-content: center;
 }
 .row{
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
-    padding: 10px;   
+    padding: 100px;   
 }
-
 .page1{
     background-image: url('../img/bgsite.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
+    min-height: 100%;
 }
-
 .card-title{
     font-size: 200%;
 }
 .card-text{
     justify-content: flex-end;
 }
-
 .d-block{
     width: 220px;
     height: 292px;
 }
-
-
-
 .separation{
-    background-color: rgb(20, 23, 26);
+    background-color: rgb(77, 1, 1);
+    background-size: 50px;
     margin-bottom: 0%;
-    
+    color: blanchedalmond;
+    justify-content: baseline;
+    text-align: center;
 }
 .panels{
     height: 100vh;
     width: 100vw;
     display:flex;
 }
-
 .panel{
-
     height: 100%;
     flex: 3;
 
@@ -58,24 +62,19 @@ html, body{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-
 .panel:hover{
     flex:5;
 }
 .panel:hover>.titreJeu{
     opacity: 100%;
 }
-
 .tlous{
     background-image: url("../img/tlous.jpg");
-
 }
 .re4{
     background-image: url("../img/re4.jpg");
 }
-
 .disland{
     background-image: url("../img/di.jpg");
 }

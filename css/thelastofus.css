@@ -1,0 +1,37 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.body{
+    background-image: url('../img/tlouspage2.jpg');
+
+}
+.col-1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+body {
+    background-image: url("../img/tlouspage2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    padding-left: 20%;
+}
+
+iframe {
+    width: 80%;
+    height: 60%;
+    border: none;
+}
