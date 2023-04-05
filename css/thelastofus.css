@@ -22,16 +22,17 @@ body {
     padding: 0;
 }
 
-.container {
+.row{
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    height: 100vh;
-    padding-left: 20%;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 10%;
 }
 
 iframe {
-    width: 80%;
-    height: 60%;
+    width: 45%;
+    height: 80%;
     border: none;
+    padding-left: 90px;
+    padding-top: 200px;
 }
