@@ -1,0 +1,30 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+body {
+    background-image: url("../img/re4wp.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+iframe {
+    width: 45%;
+    height: 80%;
+    border: none;
+    padding-left: 90px;
+    padding-top: 200px;
+}
+
+.card{
+    position: absolute;
+    left: 1175px;
+    top: -650px;
+}
