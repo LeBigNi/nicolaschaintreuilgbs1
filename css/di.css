@@ -1,0 +1,25 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+body {
+    background-image: url("../img/wp2991025.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+iframe {
+    width: 70%;
+    height: 80%;
+    border: none;
+    padding-left: 400px;
+    padding-top: 200px;
+}
